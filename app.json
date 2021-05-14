@@ -1,0 +1,31 @@
+{
+  "expo" : {
+    "web" : {
+      "favicon" : "./assets/favicon.png"
+    },
+    "assetBundlePatterns" : [ "**/*" ],
+    "updates" : {
+      "fallbackToCacheTimeout" : 0
+    },
+    "name" : "React Native Card Pan Demo",
+    "slug" : "react-native-card-pan-demo",
+    "entryPoint" : "./src/App.js",
+    "splash" : {
+      "image" : "./assets/splash.png",
+      "resizeMode" : "contain",
+      "backgroundColor" : "#ffffff"
+    },
+    "version" : "1.0.0",
+    "ios" : {
+      "supportsTablet" : true
+    },
+    "android" : {
+      "adaptiveIcon" : {
+        "foregroundImage" : "./assets/adaptive-icon.png",
+        "backgroundColor" : "#FFFFFF"
+      }
+    },
+    "orientation" : "portrait",
+    "icon" : "./assets/icon.png"
+  }
+}
